@@ -1,0 +1,132 @@
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 46052 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:34:37
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 46365 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:34:40
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 46883 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:35
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 47196 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:38
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 47387 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:41
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 47758 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:45
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 48009 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:48
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 48080 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:49
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 48271 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:51
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 48402 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 12:35:52
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 4235 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 14:14:54
+
+***Alerta de consumo da CPU: 96.4% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 98.7% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 4633 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 14:15:27
+
+***Alerta de consumo da CPU: 99.2% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 99.3% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 99.4% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 99.5% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 100% ***
+Usuário: organon 
+Pid: 4991 
+Iniciado em: ps -eo user,pid,%cpu,%mem,start,cmd --sort=-%cpu
+Horário: 14:15:55
+
+***Alerta de consumo da CPU: 99.5% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 98.5% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
+
+***Alerta de consumo da CPU: 92.0% ***
+Usuário: root 
+Pid: 4104 
+Iniciado em: /usr/bin/python3 /usr/bin/unattended-upgrade
+Horário: 14:14:47
