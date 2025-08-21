@@ -1,12 +1,11 @@
-# 🖥️ Monitor de Sistema em Bash
+# Monitor de Sistema em Bash
 
-## 🙏 Saudações e Agradecimento
 Saudações e agradecimento para todos que aqui chegaram.  
 A ideia é simples: **monitorar o sistema**.
 
 ---
 
-## 📌 Descrição
+## Descrição
 O script em **Bash** realiza:
 - Monitoramento de **CPU**
 - Monitoramento de **Memória**
@@ -16,18 +15,18 @@ Além disso, acompanha exemplos em **C** para:
 - Criar processos zumbi  
 - Simular vazamentos de memória  
 
-> ⚠️ Nota: o exemplo de vazamento de memória em C não é absoluto, pois o limite de memória pode variar entre sistemas.
+> Nota: o exemplo de vazamento de memória em C não é absoluto, pois o limite de memória pode variar entre sistemas.
 
 ---
 
-## ⚙️ Funcionamento Geral
+##  Funcionamento Geral
 - O script utiliza um **loop infinito (`while true`)** para captura contínua.  
 - As variáveis `CPU` e `MEM` definem limites de alerta.  
 - O `echo` usado no código pode ser removido em algumas linhas, pois serve apenas para debug.  
 
 ---
 
-## 🔎 Captura de CPU
+## Captura de CPU
 
 ```bash
 top -bn1 | grep "CPU" | head -n 1 \
@@ -42,7 +41,7 @@ Explicação
     awk → soma valores de usuário + sistema, exibindo em ponto flutuante.
     Em sistemas já no formato americano (9.3), o sed pode ser removido.
 
-📋 Listagem de Processos
+Listagem de Processos
 
 ps -eo user,pid,%cpu,%mem,cmd,comm,start --sort=-%cpu
 ps -eo user,pid,%cpu,%mem,cmd,comm,start --sort=-%mem
@@ -59,10 +58,10 @@ Explicação
 
     head -n 20 → limita a listagem para os 20 primeiros processos.
 
-🧮 Monitoramento de Limites
+Monitoramento de Limites
 
 if [[ $(echo "$MEM_USADO > $LIM_MEM" | bc -l) -eq 1 ]]; then
-    notify-send "⚠️ Alerta: consumo elevado de Memória"
+    notify-send " Alerta: consumo elevado de Memória"
 fi
 
 Detalhes
@@ -73,11 +72,11 @@ Detalhes
 
     notify-send → exibe pop-up no desktop.
 
-    🔔 Para instalar o notify-send, veja este guia
+    Para instalar o notify-send, veja este guia
 
     .
 
-🧟 Captura e Mitigação de Processos Zumbi
+Captura e Mitigação de Processos Zumbi
 1. Detectando zumbis
 top -bn1 | grep "Tarefas" | awk '{print $11}'
     Captura número de processos zumbi.
